@@ -3,7 +3,7 @@ class EmployeeTable:
         self.data = data
 
     def display_table(self):
-        print("Employee Table:")
+        print("Sorted Employee Table:")
         for row in self.data:
             print(row)
 
@@ -30,7 +30,7 @@ employee_table = EmployeeTable(employee_data)
 print("Original Employee Table:")
 employee_table.display_table()
 
-sorting_parameter = int(input("Enter sorting parameter (1. Age, 2. Name, 3. Salary): "))
+sorting_parameter = int(input("Enter what you want to sort based on (1)Age 2)Name 3)Salary): "))
 employee_table.sort_table(sorting_parameter)
 
 print("\nSorted Employee Table:")
