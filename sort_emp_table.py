@@ -14,15 +14,7 @@ class Emp:
         self.salary = salary
         self.emp = []
 
-    def insert(self, id, name, age, salary):
+    #def insert(self, id, name, age, salary):
 
-    def sort(self, choice):
+    #def sort(self, choice):
 
-    
-print("Select based on what you want to sort:\n1) Age\n2) Name\n3)Salary")
-choice = int(input())
-if choice == 1:
-
-    for i, v in enumerate(emp):
-
- 
